@@ -16,6 +16,14 @@ logger = getLogger(__name__)
 
 class SkeletonAlertUserSettingsForm(forms.Form):
     favorite_bone = forms.CharField(max_length=100)
+ 
+class SkeletonAlert(AlertPlugin):
+    name = "Skeleton"
+    author = "Jack Skellington"
+
+    def send_alert(self, service, users, duty_officers):
+        """Implement your send_alert functionality here."""
+        return
 
 class SkeletonAlertPlugin(AlertPlugin):
     name = "Skeleton"
