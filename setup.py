@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 from cabot.cabotapp.alert import AlertPlugin
 from cabot.cabotapp.alert import AlertPluginUserData
 from django.db import models
-from cabot.cabotapp.alert import AlertPluginUserData
+#from cabot.cabotapp.alert import AlertPluginUserData
 
 setup(name='cabot-alert-skeleton',
       version='1.0.0',
