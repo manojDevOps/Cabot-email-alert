@@ -2,7 +2,7 @@
 
 from setuptools import setup, find_packages
 #from cabot.cabotapp.alert import AlertPlugin
-from cabot.cabotapp.alert import AlertPluginUserData
+#from cabot.cabotapp.alert import AlertPluginUserData
 from django.db import models
 #from cabot.cabotapp.alert import AlertPluginUserData
 
